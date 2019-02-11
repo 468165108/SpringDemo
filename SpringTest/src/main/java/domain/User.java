@@ -30,4 +30,13 @@ public class User {
         this.username=username;
     }
 
+	public User(String loginname, String password, String username) {
+		super();
+		this.loginname = loginname;
+		this.password = password;
+		this.username = username;
+	}
+
+    
+    
 }
